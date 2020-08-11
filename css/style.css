@@ -766,6 +766,7 @@ header .btn-right .btn:hover i {
   display: inline-block;
 }
 .process .num {
+  font-family: "Montserrat", sans-serif;
   position: absolute;
   font-size: 135px;
   top: -50px;
