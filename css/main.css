@@ -1,10 +1,15 @@
 /* MENU CONFIGURATION
 **********************************************************/
+.sticky{
+	position: sticky;
+	top: 0;
+}
 .ownmenu {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	position: relative;
+	position: sticky;
+	top:0;
 	float: left;
 	list-style: none;
 }
@@ -59,6 +64,8 @@
 .ownmenu ul.dropdown li:hover > a {
 	background: #e0e0e0;
 	color: #555;
+	position: sticky;
+	top: 0;
 }
 /* dropdowns to left side */
 .ownmenu ul.dropdown li ul.dropdown.left {
@@ -299,6 +306,15 @@
 	height: 2px;
 	background: #999;
 }
+
+/*gallery images*/
+.gallery li {
+	padding-left: 5px;
+}
+#gallery-last {
+	padding-right:s 5px;
+}
+
 /* RESPONSIVE LAYOUT
 **********************************************************/
 @media (max-width: 767px) {
