@@ -1400,13 +1400,14 @@ header .btn-right .btn:hover i {
 }
 .donatores li .donor-details {
   background: #fff;
-  padding-top: 80px;
+  padding-top: 75px;
   position: relative;
   z-index: 1;
   margin-top: -70px;
+  border-radius: 5px;
 }
 .donatores li .donor-details span {
-  margin-top: 15px;
+  margin-top: 5px;
   display: inline-block;
   padding-bottom: 4px;
   color: #232323;
@@ -2723,6 +2724,9 @@ header .btn-right .btn:hover i {
 }
 .testi h3 {
   margin-top: 130px;
+  font-size: 42px;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
 }
 .with-bg-drk:before {
   height: 100%;
