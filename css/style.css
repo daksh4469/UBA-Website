@@ -134,9 +134,9 @@ section {
   overflow: hidden;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
-.patern {
+/*.patern {
   background: url(../images/testi-bg.jpg) repeat;
-}
+}*/
 /*=======================================================
 			BUTTON
 ========================================================*/
@@ -361,9 +361,34 @@ header .logo-left {
   margin: 10px 0;
 }
 
-header .logo-right {
+.heading .logo-mid {
+  text-align: center;
+  height: auto;            /* added by Dikshitha */
+  margin: auto;
+  margin-top:10px;
+}
+
+.heading .logo-left {
+  text-align: center;
+  height: auto;             /* added by Dikshitha */
+  margin: auto;
+}
+
+.heading .logo-right-coloured{
+  text-align: center;
+  height: auto;             /* added by Dikshitha */
+  margin: auto;
+}
+
+/*header .logo-right {
   text-align: right;
   margin: 10px 0;
+}*/
+
+.heading{
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 header .nav-img {
@@ -586,6 +611,8 @@ header .btn-right .btn:hover i {
 			BANNER
 ========================================================*/
 #banner {
+   margin:100px;
+  margin-bottom: 0;/* added by dikshitha*/
   max-height: 670px;
   position: relative;
   overflow: hidden;
@@ -707,6 +734,7 @@ header .btn-right .btn:hover i {
   font-weight: bold;
   text-transform: uppercase;
   margin: 0px;
+  font-size: 60px;
 }
 .sub-banner h3 span {
   color: #ecc731;
@@ -730,40 +758,49 @@ header .btn-right .btn:hover i {
 ========================================================*/
 .process {
   background: rgba(0, 0, 0, 1);
-  height: 210px;
+  height:auto;
   width: 100%;
   position: relative;
   overflow: hidden;
   z-index: 99;
-  margin-top: 0px;
-  margin-bottom: 40px;
+  margin:3% 0;
+  padding: 2% 3% 5%;
+  border-top:solid 10px #f3c623;
+  border-bottom:solid 10px #f3c623;
 }
 /*added by daksh doshi*/
 .how-we-work {
   font-family: "Montserrat", sans-serif;
-  color: rgba(255, 255, 255, 0.9);
+  color: white;
   text-align: center;
-  margin-bottom: 20px;
-  font-weight: 700;
+  font-size: 4rem;
+  margin-bottom: 50px;
+  font-weight: 900;
 }
 .process li {
   text-align: center;
   border-right: 1px solid rgba(0, 0, 0, 0.3);
-  padding: 30px 0px;
+  padding: 10px 0px;
 }
 .process p {
   /* font-style: italic; */
   font-family: "Montserrat", sans-serif; /*changed by daksh doshi*/
-  font-size: 17px;
+  font-size: 20px;
   color: #fff;
-  margin-bottom: 0px;
+  margin-top: 10px;
   font-weight: bold;
 }
-.process p i {
+.process li i{
   margin-right: 15px;
-  font-size: 26px;
+  font-size: 4rem;
+  margin-bottom: 20px;
   color: #f3c623; /*changed by daksh doshi*/
   display: inline-block;
+}
+.process p button{
+  margin:0 4px 0;
+  font-size:1.2rem;
+  font-weight: 1000;
 }
 .process .num {
   font-family: "Montserrat", sans-serif;
@@ -1208,6 +1245,7 @@ header .btn-right .btn:hover i {
 }
 .how-can-help hr {
   margin-bottom: 50px;
+  border-bottom: 30px;
 }
 .how-can-help .btn {
   padding-right: 0px;
@@ -2377,6 +2415,7 @@ header .btn-right .btn:hover i {
 /*=======================================================
 			BLOG
 ========================================================*/
+
 .blog {
   padding: 80px 0;
   background: #fff;
@@ -2416,6 +2455,7 @@ header .btn-right .btn:hover i {
   width: 100%;
   font-size: 15px;
   color: #232323;
+  font-weight: bold;
 }
 .blog li span {
   display: inline-block;
@@ -2427,6 +2467,12 @@ header .btn-right .btn:hover i {
 }
 .blog li img {
   width: 100%;
+  border-radius: 50%;
+  border:black solid 3px;
+  position: absolute;
+  left:50%;
+  top:50%;
+  z-index: 2;
 }
 .blog a.btn {
   padding-right: -30px;
@@ -2437,6 +2483,20 @@ header .btn-right .btn:hover i {
   line-height: 30px;
   margin-top: 10px;
   border: none;
+  background-color:black;
+  color:white;
+}
+.blog a.btn:hover {
+  padding-right: -30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 30px;
+  font-size: 11px;
+  line-height: 30px;
+  margin-top: 10px;
+  border: none;
+  background-color:white;
+  color:black;
 }
 .blog ul:nth-child(1) {
   margin-bottom: 58px;
@@ -2456,6 +2516,16 @@ header .btn-right .btn:hover i {
   line-height: 30px;
 }
 
+.blog .blog-right .col-xs-8{
+  border-radius: 10%;
+  border: black solid 3px;
+  background-color: #f9dc52;
+  padding: 25px 25px 25px 110px;
+  colour:black;
+  position: absolute;
+  right:0;
+  top:12%;
+}
 .blog-post {
   display: inline-block;
   width: 100%;
@@ -2715,6 +2785,7 @@ header .btn-right .btn:hover i {
 .testi {
   background: url(../images/testi-bg.jpg) repeat;
 }
+
 .testi:before {
   height: 40px;
   background: #fff;
@@ -2725,18 +2796,16 @@ header .btn-right .btn:hover i {
 }
 .testi h3 {
   margin-top: 130px;
-  font-size: 42px;
+  font-size:  42px;
   color: #000;
   font-family: "Montserrat", sans-serif;
 }
 .with-bg-drk:before {
   height: 100%;
   background: #434343;
-  content: "";
-  position: absolute;
+  content: "";  position: absolute;
   width: 1000%;
-  top: 0px;
-  left: 30%;
+  top: 0px;  left: 30%;
   z-index: 1;
   margin-top: 40px;
 }
@@ -2745,6 +2814,7 @@ header .btn-right .btn:hover i {
 }
 .with-bg-drk img {
   position: relative;
+  right: -100px;
   z-index: 2;
 }
 .testi-slides {
@@ -2770,8 +2840,8 @@ header .btn-right .btn:hover i {
   margin-top: 20px;
 }
 .testi .owl-dot span {
-  height: 10px;
-  width: 10px;
+  height: 20px;
+  width: 20px;
   border: 2px solid;
   border-color: transparent;
   border-radius: 50%;
@@ -2816,17 +2886,23 @@ header .btn-right .btn:hover i {
   background: #fff;
   padding: 60px 0;
   text-align: center;
+  /*display:inline-block;*/
+  /*width:auto;*/
 }
 .proud h1 {
-  margin: 0px;
+  margin: 0;
+  font-size: 40px;
   margin-bottom: 20px;
-  color: #ecc730;
-  font-weight: bold;
+  color: black;
+  font-weight: 700;
+
+  /*border:solid black 5px;
+  border-radius:10%;*/
 }
 .proud h2 {
   margin: 0px;
 }
-.proud h2 i {
+.proud h1 i {
   color: #ecc730;
 }
 /*=======================================================
@@ -3066,7 +3142,7 @@ footer .social_icons {
   margin-bottom: 40px;
   margin-right: 15px;
   right: -15px;
-  position: absolute;
+  /*position: absolute;*/
 }
 footer .social_icons:before {
   position: absolute;
@@ -3088,17 +3164,22 @@ footer .social_icons li a {
   color: #cccccc;
 }
 footer h6 {
-  border-bottom: 1px solid #4f4f4f;
+  font-size: 16px;
+  border-bottom: 1px solid #b1b493;
   padding-bottom: 10px;
   text-transform: uppercase;
-  color: #e8e8e8;
+  color: #ecc731;
   display: inline-block;
-  margin-top: 110px;
+  margin-top: 50px;
   margin-bottom: 30px;
 }
 footer p {
-  color: #aaaaaa;
+  color: white;
   line-height: 24px;
+}
+footer p i{
+  color:#ecc731;
+  margin:8px;
 }
 footer .subcribe {
   margin-bottom: 60px;
@@ -3106,10 +3187,9 @@ footer .subcribe {
 footer .subcribe input {
   width: 100%;
   background: #303030;
-  height: 40px;
   margin-top: 30px;
   border: none;
-  padding: 0 10px;
+  padding: 0 10x;
   color: #e8e8e8;
 }
 footer .subcribe button {
@@ -3131,15 +3211,16 @@ footer .shadow {
 }
 footer .links li {
   padding: 6px 0px;
-  color: #aaaaaa;
+  color: white;
+  font-size: 16px;
 }
 footer .links li a {
-  color: #aaaaaa;
+  color: white;
   display: inline-block;
   width: 100%;
 }
 footer .links li a:hover {
-  color: #fff;
+  color: #ecc731;
 }
 footer .tweet {
 }
@@ -3194,19 +3275,82 @@ footer .rights p {
 /*=======================================================
 			SOCIAL ICONS
 ========================================================*/
+footer .container-fluid div {
+  display: inline-block;
+  text-align: center;
+
+}
+footer .container-fluid{
+  margin:auto;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.container-fluid div{
+  margin: 0px 15px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+}
+div.fa-facebook {
+  text-align: center;
+  color:white;
+  background-color:  #3b5998; 
+}
+div.fa-twitter{
+  text-align: center;
+  color:white;
+  background-color: #00acee;
+}
+div.fa-instagram{
+  text-align: center;
+  color:white;
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ); 
+}
+
+a div.fa-facebook:hover {
+  text-align: center;
+  color:black;
+  background-color: white; 
+}
+a div.fa-twitter:hover{
+  text-align: center;
+  color:black;
+  background-color: white; 
+}
+a div.fa-instagram:hover{
+  text-align: center;
+  color:black;
+  background: white; 
+}
+
+/*footer .container .social_icons{
+  background: #232323;
+}
+
 .social_icons {
-  position: relative;
+  text-align: center;
+  position:relative;
+  margin:auto;
   z-index: 9;
 }
 .social_icons ul {
   margin: 0;
-  padding: 0;
   text-align: center;
+
 }
 .social_icons li {
   display: inline-block;
   list-style: none;
   float: left;
+
 }
 .social_icons a {
   display: block;
@@ -3330,4 +3474,25 @@ footer .rights p {
   color: #fff;
   background-color: #35506b;
   border-color: #35506b;
+}*/
+
+
+#breadcrumbVllg {
+  font-size: 18px;
+  background-color: #f3c623;
+  font-weight: bold;
+  margin-bottom: 0px;
+  
+}
+
+#initiatives h3{
+  font-size: 40px;
+}
+
+div .donor-details{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p b {
+  font-size: 24px;
 }
