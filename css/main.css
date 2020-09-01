@@ -501,7 +501,7 @@ html[xmlns] .flexslider .slides {
 	text-align: center;
 	line-height: 40px;
 	background: rgba(0,0,0,0.8);
-	color: #ecc731;
+	color: #f8cd35;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
@@ -515,7 +515,7 @@ html[xmlns] .flexslider .slides {
 	width: 100%;
 	font-family:'FontAwesome';
 	content: '\f104';
-	color: #ecc731;
+	color: #f8cd35;
 	margin-top: 0px;
     float: left;
 }
@@ -1811,7 +1811,7 @@ img.mfp-img {
 }
 .cost-price-content .noUi-handle-lower, .cost-price-content .noUi-handle-upper {
 	background-color: #f8f9fa;
-	border: 3px solid #ecc731;
+	border: 3px solid #f8cd35;
 }
 /** /!!! core css Should not edit !!!/**/
 
@@ -2204,7 +2204,7 @@ img.mfp-img {
 	padding-left: 3px;
 	padding-top: 1px;
 	font-size: 11px;
-	color: #ecc731;
+	color: #f8cd35;
 }
 .checkbox input[type="checkbox"] {
 	opacity: 0;
