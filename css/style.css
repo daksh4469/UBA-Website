@@ -244,7 +244,7 @@ section {
 			TITTLE
 ========================================================*/
 hr {
-  background: #ecc731;
+  background: #f8cd35;
   height: 4px;
   width: 110px;
 }
@@ -583,12 +583,12 @@ header .btn-right .btn {
   color: #fff;
 }
 header .btn-right i {
-  color: #ecc731;
+  color: #f8cd35;
   margin-right: 10px;
   transition: all 0.4s ease-in-out;
 }
 header .btn-right .btn:hover {
-  background: #ecc731;
+  background: #f8cd35;
   color: #303030;
 }
 header .btn-right .btn:hover i {
@@ -650,7 +650,7 @@ header .btn-right .btn:hover i {
 }
 .bnr-txt hr {
   height: 4px;
-  background: #ecc731;
+  background: #f8cd35;
   width: 80px;
   border: none;
   margin: 20px 0;
@@ -670,14 +670,14 @@ header .btn-right .btn:hover i {
   margin-left: 10px;
 }
 .bnr-txt .btn:hover {
-  background: #ecc731;
-  border-color: #ecc731;
+  background: #f8cd35;
+  border-color: #f8cd35;
 }
 .white-bg {
   background: #fff;
 }
 .bnr-txt-2 h3 {
-  color: #ecc731;
+  color: #f8cd35;
   font-weight: bold;
   font-style: italic;
 }
@@ -697,7 +697,7 @@ header .btn-right .btn:hover i {
   border: none;
 }
 .bnr-txt-2 .btn i {
-  background: #ecc731;
+  background: #f8cd35;
   color: #fff;
   float: right;
   display: inline-block;
@@ -737,7 +737,7 @@ header .btn-right .btn:hover i {
   font-size: 60px;
 }
 .sub-banner h3 span {
-  color: #ecc731;
+  color: #f8cd35;
 }
 .sub-banner .breadcrumb {
   background: none;
@@ -817,7 +817,7 @@ header .btn-right .btn:hover i {
 .up-com-event {
   background: #ffffff;
   padding: 30px;
-  border-bottom: 2px solid #ecc731;
+  border-bottom: 2px solid #f8cd35;
   margin-top: -25px;
   position: relative;
   z-index: 99;
@@ -905,7 +905,7 @@ header .btn-right .btn:hover i {
   margin-right: 10px;
 }
 .donate-price .tabii-price li.active a {
-  color: #ecc731;
+  color: #f8cd35;
 }
 .donate-price .tabii-price a {
   color: #232323;
@@ -1069,7 +1069,7 @@ header .btn-right .btn:hover i {
 }
 .cases-pages .filter li a.active {
   color: #3e3e3e;
-  border-bottom: 2px solid #ecc731;
+  border-bottom: 2px solid #f8cd35;
 }
 .cases-pages .filter-bar {
   background: #ffffff;
@@ -1146,11 +1146,11 @@ header .btn-right .btn:hover i {
   background: none;
 }
 .pagination li.active {
-  border-bottom: 2px solid #ecc731;
+  border-bottom: 2px solid #f8cd35;
 }
 .pagination li.active a {
-  color: #ecc731;
-  border-bottom: 2px solid #ecc731;
+  color: #f8cd35;
+  border-bottom: 2px solid #f8cd35;
 }
 .pager li a span {
   margin: 0 10px;
@@ -1396,17 +1396,17 @@ header .btn-right .btn:hover i {
 }
 #counters li i {
   font-size: 40px;
-  color: #ecc731;
+  color: #f8cd35;
   margin-right: 20px;
   margin-top: 10px;
-  border-bottom: 1px solid #ecc731;
+  border-bottom: 1px solid #f8cd35;
   padding-bottom: 20px;
 }
 #counters li span {
   font-size: 35px;
   font-weight: bold;
   font-family: "Lora", serif;
-  color: #ecc731;
+  color: #f8cd35;
 }
 #counters li p {
   font-family: "Lora", serif;
@@ -1453,7 +1453,7 @@ header .btn-right .btn:hover i {
   border-bottom: 3px solid #e5e5e5;
 }
 .donatores li .donor-details span strong {
-  color: #ecc731;
+  color: #f8cd35;
 }
 .donatores li.become-donor .donor-details {
   padding: 20px 30px;
@@ -1508,7 +1508,7 @@ header .btn-right .btn:hover i {
   color: #c1c1c1;
 }
 .products-details .rated {
-  color: #ecc731;
+  color: #f8cd35;
 }
 .products-details .add-cart {
   display: inline-block;
@@ -1524,7 +1524,7 @@ header .btn-right .btn:hover i {
   font-weight: bold;
 }
 .products-details .add-cart:hover {
-  border-color: #ecc731;
+  border-color: #f8cd35;
 }
 .shop-side-bar {
   background: #fff;
@@ -1581,7 +1581,7 @@ header .btn-right .btn:hover i {
   color: #000;
 }
 .shop-pages .top-rated p {
-  color: #ecc731;
+  color: #f8cd35;
   margin-top: 5px;
   font-size: 14px;
   font-weight: bold;
@@ -1601,7 +1601,7 @@ header .btn-right .btn:hover i {
   border-bottom: 1px solid #e8e8e8;
   padding-bottom: 20px;
   margin-bottom: 20px;
-  color: #ecc731;
+  color: #f8cd35;
   margin-top: 10px;
 }
 .item-info .price span {
@@ -1619,7 +1619,7 @@ header .btn-right .btn:hover i {
   margin-top: 5px;
 }
 .item-info .stars h5 span {
-  color: #ecc731;
+  color: #f8cd35;
 }
 .item-info .add-cart {
   margin-top: 20px;
@@ -1670,12 +1670,12 @@ header .btn-right .btn:hover i {
   border: none;
   margin: 0px;
   border: none;
-  border-top: 4px solid #ecc731;
+  border-top: 4px solid #f8cd35;
   border-color: transparent;
   border-left: 1px solid #eeeeee;
 }
 .item-info .nav-tabs li.active {
-  border-top: 4px solid #ecc731;
+  border-top: 4px solid #f8cd35;
   border-left: 1px solid #eeeeee;
 }
 .item-info .tab-content {
@@ -1868,7 +1868,7 @@ header .btn-right .btn:hover i {
   padding: 5px 10px;
 }
 .cart-products .remove:hover {
-  background: #ecc731;
+  background: #f8cd35;
   color: #fff;
 }
 .coupon input {
@@ -1884,10 +1884,10 @@ header .btn-right .btn:hover i {
 }
 .coupon .btn {
   background: #fff;
-  border: 2px solid #ecc731;
+  border: 2px solid #f8cd35;
 }
 .coupon .btn:hover {
-  background: #ecc731;
+  background: #f8cd35;
 }
 .total-cart .inner {
   background: #fff;
@@ -1923,10 +1923,10 @@ header .btn-right .btn:hover i {
 }
 .total-cart .btn-1 {
   background: #fff;
-  border: 2px solid #ecc731;
+  border: 2px solid #f8cd35;
 }
 .total-cart .btn-1:hover {
-  background: #ecc731;
+  background: #f8cd35;
 }
 .billing-info {
 }
@@ -1947,7 +1947,7 @@ header .btn-right .btn:hover i {
   font-weight: bold;
 }
 .billing-info label span.yelo {
-  color: #ecc731;
+  color: #f8cd35;
   font-size: 16px;
 }
 .billing-info .bootstrap-select > .btn {
@@ -1962,7 +1962,7 @@ header .btn-right .btn:hover i {
   content: "\f0d7";
   font-family: "FontAwesome";
   display: inline-block;
-  background: #ecc731;
+  background: #f8cd35;
   height: 39px;
   width: 40px;
   color: #fff;
@@ -2073,12 +2073,12 @@ header .btn-right .btn:hover i {
   margin-bottom: 20px;
 }
 .call-out h2 span {
-  color: #ecc731;
+  color: #f8cd35;
   font-weight: bold;
 }
 .call-out .btn {
   font-size: 12px;
-  border: 2px solid #ecc731;
+  border: 2px solid #f8cd35;
   margin-top: 30px;
   margin-left: 20px;
 }
@@ -2238,11 +2238,11 @@ header .btn-right .btn:hover i {
   line-height: 30px;
 }
 .form-control:focus {
-  border: 1px solid #ecc731 !important;
+  border: 1px solid #f8cd35 !important;
 }
 
 .contact-us .contact-info .icon {
-  background: #ecc731;
+  background: #f8cd35;
   text-align: center;
   width: 42px;
   height: 42px;
@@ -2305,7 +2305,7 @@ header .btn-right .btn:hover i {
   padding: 0 20%;
 }
 .error-text .search button {
-  background: #ecc731;
+  background: #f8cd35;
   height: 40px;
   width: 40px;
   position: relative;
@@ -2323,7 +2323,7 @@ header .btn-right .btn:hover i {
   margin: 0 auto;
 }
 .donation-pop h6 {
-  background: #ecc731;
+  background: #f8cd35;
   text-transform: uppercase;
   display: inline-block;
   width: 100%;
@@ -2387,12 +2387,12 @@ header .btn-right .btn:hover i {
   text-transform: uppercase;
 }
 .donation-pop .dona-amount li:hover a {
-  background: #ecc731;
-  border-color: #ecc731;
+  background: #f8cd35;
+  border-color: #f8cd35;
 }
 .donation-pop .dona-amount li.active a {
-  background: #ecc731;
-  border-color: #ecc731;
+  background: #f8cd35;
+  border-color: #f8cd35;
 }
 .donation-pop .per-info {
   margin-top: 20px;
@@ -2648,7 +2648,7 @@ header .btn-right .btn:hover i {
   display: inline-block;
   background: #fff;
   height: 40px;
-  border: 2px solid #ecc731;
+  border: 2px solid #f8cd35;
   width: 40px;
   color: #333333;
   text-align: center;
@@ -2957,7 +2957,7 @@ header .btn-right .btn:hover i {
   font-family: "FontAwesome";
   position: relative;
   left: -10px;
-  color: #ecc731;
+  color: #f8cd35;
   float: left;
 }
 .search {
@@ -3168,7 +3168,7 @@ footer h6 {
   border-bottom: 1px solid #b1b493;
   padding-bottom: 10px;
   text-transform: uppercase;
-  color: #ecc731;
+  color: #f8cd35;
   display: inline-block;
   margin-top: 50px;
   margin-bottom: 30px;
@@ -3178,7 +3178,7 @@ footer p {
   line-height: 24px;
 }
 footer p i{
-  color:#ecc731;
+  color:#f8cd35;
   margin:8px;
 }
 footer .subcribe {
@@ -3199,7 +3199,7 @@ footer .subcribe button {
   line-height: 40px;
   font-size: 14px;
   color: #000;
-  background: #ecc731;
+  background: #f8cd35;
   border: none;
   float: right;
   margin-top: -40px;
@@ -3220,12 +3220,12 @@ footer .links li a {
   width: 100%;
 }
 footer .links li a:hover {
-  color: #ecc731;
+  color: #f8cd35;
 }
 footer .tweet {
 }
 footer .tweet a {
-  color: #ecc731;
+  color: #f8cd35;
   display: inline-block;
   width: 100%;
 }
@@ -3495,4 +3495,69 @@ div .donor-details{
 
 p b {
   font-size: 24px;
+}
+
+.box {
+  border: 3px solid black;
+  background-color: #f8cd35;
+  color: #000;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.date {
+  opacity: 80%;
+  margin-left: 15px;
+}
+
+.cent-body{
+  float: right;
+}
+
+.cent-img{
+  float: left;
+}
+
+.ws-card-title {
+  align-content: center;
+}
+
+.card{
+  border: 2px solid black;
+  min-height: 400px;
+  min-width: 300px;
+  margin: 20px 0px 20px 30px;
+  text-align: center;
+}
+
+.card-img-top{
+  max-width: 296px;
+  max-height: 400px;
+}
+
+.card-title{
+  font-size: 1.44em;
+}
+
+.ws-logo{
+  height: 75px;
+  width: 75px;
+  margin-left: 15px;
+}
+
+.ws-header{
+  font-size: 2em;
+  font-family: "Lora", serif;
+}
+
+.social-media{
+  text-align: center;
+}
+
+.answ{
+  margin 10px;
 }
